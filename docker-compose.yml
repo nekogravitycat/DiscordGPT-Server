@@ -10,4 +10,4 @@ services:
       - ./.env/discordgpt.env
     volumes:
       - ./log:/app/log
-      - ./config.json:/app/config.json
+      - ${PWD}/config.json:/app/config.json
