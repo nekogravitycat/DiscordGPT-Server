@@ -11,4 +11,4 @@ services:
     volumes:
       - ./log:/app/log
       - ./data:/app/data
-      - ${PWD}/config.json:/app/config.json
+      - ./config:/app/config
